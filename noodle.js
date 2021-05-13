@@ -120,11 +120,11 @@ $(document).ready(function () {
     // перебираем по очереди все абзацы, которые есть на странице, используя возможности jQuery
     $(txt).each(function () {
       // по очереди проходим по массиву с регулярными выражениями
-      for (var z = 0; z < r.length; z++) {
+      for (var z = 0; z < pr.length; z++) {
         // на каждом шаге цикла берём содержимое очередного абзаца
         var par = this.innerHTML;
         // и прогоняем его через подсветку каждого найденного регулярного выражения
-        this.innerHTML = highlightText(r[z], par);
+        this.innerHTML = highlightText(pr[z], par);
       }
     });
   }
