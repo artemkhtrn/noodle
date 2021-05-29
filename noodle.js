@@ -144,3 +144,10 @@ style.innerHTML = `
     }
 `;
 document.head.appendChild(style);
+
+/* Как запускать код
+var js0 = document.createElement('script'); js0.src = "https://thecode.media/wp-content/uploads/2019/06/jquery.js"; document.body.appendChild(js0); 
+var js = document.createElement('script'); js.src = "///C:/Users/%D0%90%D1%80%D1%82%D1%91%D0%BC/Desktop/projects/noodle/noodle.js"; document.body.appendChild(js);
+
+ну или какая то другая ссылка на файл
+*/
